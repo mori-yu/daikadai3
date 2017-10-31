@@ -1,18 +1,9 @@
 ja:
   activerecord:
     models:
-      blog: "ブログ"
-      contact: "お問い合わせ"
       user: "ユーザー"
       topic: "トピック"
     attributes:
-      blog:
-        title: "タイトル"
-        content: "内容"
-      contact:
-        name: "名前"
-        email: "メールアドレス"
-        content: "内容"
       user:
         title: "タイトル"
         name: "名前"
@@ -24,3 +15,4 @@ ja:
         remember_me: "ログインを記憶"
       topic:
         title: "タイトル"
+        content: "内容"
