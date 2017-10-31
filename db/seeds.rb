@@ -15,7 +15,7 @@ user.skip_confirmation!
 user.save
 end
 
-２0.times do
+20.times do
   follower_id = [*1..20].sample
   followed_id = [*1..20].sample
   while follower_id == followed_id
