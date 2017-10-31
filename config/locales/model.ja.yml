@@ -4,7 +4,7 @@ ja:
       blog: "ブログ"
       contact: "お問い合わせ"
       user: "ユーザー"
-      topic: トピック
+      topic: "トピック"
     attributes:
       blog:
         title: "タイトル"
@@ -23,4 +23,4 @@ ja:
         password_confirmation: "確認用パスワード"
         remember_me: "ログインを記憶"
       topic:
-        title: タイトル
+        title: "タイトル"
