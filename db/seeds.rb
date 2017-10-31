@@ -32,6 +32,7 @@ end
   content = Faker::Beer.name
   Topic.create!(title: title,
                content: content,
+               user_id: "#{t}",
               )
 
 end
