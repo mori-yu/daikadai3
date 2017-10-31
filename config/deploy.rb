@@ -4,7 +4,7 @@ lock '3.6.0'
 set :application, 'daikadai3'
 
 # cloneするgitのレポジトリ（xxxxxxxx：ユーザ名、yyyyyyyy：アプリケーション名）
-set :repo_url, 'https://github.com/nezudesu/daikadai3'
+set :repo_url, 'https://github.com/morishi07/daikadai3'
 
 # deployするブランチ。デフォルトはmasterなのでなくても可。
 set :branch, ENV['BRANCH'] || 'master'
