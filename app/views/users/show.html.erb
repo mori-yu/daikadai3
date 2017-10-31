@@ -1,0 +1,22 @@
+<div class="child row">
+  <div class="wrapper col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1">
+      <p><h2>ユーザー詳細</h2></p>
+      <h3>フォロー一覧</h3>
+        <% @users.each do |user| %>
+          <% if @user.following?(user) %>
+            <p><%= profile_img(user) %></p>
+            <p><%= user.name %></p>
+          <% end %>
+        <% end %>
+
+      <h3>フォローワー一覧</h3>
+        <% @users.each do |user| %>
+          <% if user.following?(@user) %>
+            <p><%= profile_img(user) %></p>
+            <p><%= user.name %></p>
+         <% end %>
+        <% end %>
+      <%= link_to '戻る', users_path %>
+    </div>
+  </div>
+</div>
