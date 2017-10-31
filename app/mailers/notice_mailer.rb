@@ -5,7 +5,7 @@ class NoticeMailer < ApplicationMailer
   #
   #   en.notice_mailer.sendmail_topic.subject
   #
-  def sendmail_topic(topic)
+  def sendmail_topic(topic,user)
     @topic = topic
     @user = user
 
